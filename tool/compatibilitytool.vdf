@@ -1,0 +1,14 @@
+"compatibilitytools"
+{
+  "compat_tools"
+  {
+	"steam-mp-launcher-next" // Internal name of this tool
+	{
+	  "install_path" "."
+	  "display_name" "Steam MP Launcher (Next)"
+
+	  "from_oslist"  "windows"
+	  "to_oslist"    "linux"
+	}
+  }
+}

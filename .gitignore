@@ -1,0 +1,11 @@
+/build/
+/backend/target/
+/ui/*.o
+/ui/moc_*.cpp
+/ui/moc_predefs.h
+/ui/Makefile
+/ui/.qmake.stash
+/ui/steam-mp-launcher
+dist/*.tar.gz
+/dist/appdir/
+/dist/SHA256SUMS

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MIT
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Steam MP Launcher - Open with
+Comment=Add a .exe as a launcher/sidecar or run it once
+Exec=steam-mp-launcher --open %f
+TryExec=steam-mp-launcher
+Icon=steam-mp-launcher
+MimeType=application/x-ms-dos-executable;application/x-msdownload;application/vnd.microsoft.portable-executable;
+Terminal=false
+NoDisplay=true

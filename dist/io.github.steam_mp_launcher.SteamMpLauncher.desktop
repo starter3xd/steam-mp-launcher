@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: MIT
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Steam MP Launcher
+GenericName=Steam Multiplayer Launcher
+Comment=Manage and launch multiplayer launchers through Proton
+Exec=steam-mp-launcher
+TryExec=steam-mp-launcher
+Icon=steam-mp-launcher
+Terminal=false
+Categories=Game;Qt;KDE;
+Keywords=Steam;Proton;TruckersMP;TrucksBook;ETS2;ATS;launcher;
+StartupWMClass=steam-mp-launcher
+X-KDE-StartupNotify=true
+X-GNOME-UsesNotifications=true
