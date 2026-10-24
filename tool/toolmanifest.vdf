@@ -1,0 +1,7 @@
+"manifest"
+{
+  "commandline" "/steam-mp-launch run"
+  "commandline_waitforexitandrun" "/steam-mp-launch waitforexitandrun"
+  "commandline_getcompatpath" "/steam-mp-launch getcompatpath"
+  "commandline_getnativepath" "/steam-mp-launch getnativepath"
+}

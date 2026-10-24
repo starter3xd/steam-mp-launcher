@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<component type="desktop-application">
+  <id>io.github.steam_mp_launcher.SteamMpLauncher</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Steam MP Launcher</name>
+  <summary>Manage and launch multiplayer launchers for Steam games</summary>
+  <description>
+    <p>
+      Steam MP Launcher manages multiplayer launchers (TruckersMP, TrucksBook)
+      and starts them through Proton from Steam Play.
+    </p>
+    <ul>
+      <li>Picker for the game, launchers and sidecars</li>
+      <li>Manager for lists, Proton selection, settings and logs</li>
+      <li>Guided TruckersMP and TrucksBook installers</li>
+      <li>Session tray for starting additional programs and stopping the game</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">io.github.steam_mp_launcher.SteamMpLauncher.desktop</launchable>
+  <provides>
+    <binary>steam-mp-launcher</binary>
+  </provides>
+  <categories>
+    <category>Game</category>
+    <category>Utility</category>
+  </categories>
+  <keywords>
+    <keyword>Steam</keyword>
+    <keyword>Proton</keyword>
+    <keyword>TruckersMP</keyword>
+    <keyword>TrucksBook</keyword>
+    <keyword>ETS2</keyword>
+    <keyword>ATS</keyword>
+  </keywords>
+  <url type="homepage">https://github.com/starter3xd/steam-mp-launcher</url>
+  <developer id="io.github.steam_mp_launcher">
+    <name>Steam MP Launcher contributors</name>
+  </developer>
+  <releases>
+    <release version="0.1.0" date="2026-10-24"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

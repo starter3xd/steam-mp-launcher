@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Same geometry as steam-mp-launcher.svg, one colour, no plate.
+     The back panel is an open outline that ends underneath the front panel,
+     so nothing shows through the play cut-out. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- back panel: outer rect 46,48 94x94 r18, stroke 10 (centre line 51,53 84x84 r13) -->
+  <path d="M135 96 V66 A13 13 0 0 0 122 53 H64 A13 13 0 0 0 51 66 V124 A13 13 0 0 0 64 137 H110"
+        fill="none" stroke="#eff0f1" stroke-width="10" stroke-linecap="butt"/>
+  <!-- front panel: outer rect 98,84 108x108 r22, play cut-out -->
+  <path fill="#eff0f1" fill-rule="evenodd"
+        d="M120 84 H184 A22 22 0 0 1 206 106 V170 A22 22 0 0 1 184 192 H120
+           A22 22 0 0 1 98 170 V106 A22 22 0 0 1 120 84 Z
+           M140 112 L182 138 L140 164 Z"/>
+  <!-- road -->
+  <path d="M40 218 H214" stroke="#eff0f1" stroke-width="10" stroke-linecap="round"/>
+</svg>

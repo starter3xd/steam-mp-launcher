@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: MIT -->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#1b1e27"/>
+  <!-- back panel: the "other" program, only hinted -->
+  <rect x="46" y="48" width="94" height="94" rx="18" fill="none" stroke="#8e9baa" stroke-width="10"/>
+  <!-- front panel: the game session -->
+  <rect x="98" y="84" width="108" height="108" rx="22" fill="#3daee9"/>
+  <!-- play -->
+  <path d="M140 112 L182 138 L140 164 Z" fill="#eff0f1"/>
+  <!-- road: the trucking nod -->
+  <path d="M40 218 H214" stroke="#eff0f1" stroke-width="10" stroke-linecap="round"/>
+  <path d="M150 218 H214" stroke="#3daee9" stroke-width="10" stroke-linecap="round"/>
+</svg>
